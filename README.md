@@ -108,8 +108,7 @@ _Finalmente, alimentar eléctricamente el Arduino de la forma preferida (USB, pi
 
 ## INITIAL SETTINGS / _AJUSTES INICIALES_
 
-The code is set up by default for an N-scale railway, with reed contacts separated 25 cm apart.
-Should you wish to change these settings, you need to modify the following parameters:
+Upload the sketch file "Trampa_de_velocidad-Speed_trap.ino" to the Arduino board. The code is set up by default for an N-scale railway, with reed contacts separated 25 cm apart. Should you wish to change these settings, you need to modify the following parameters:
 - Line 25: `distancia_cm` sets up the distance between reed contacts (in cm)
 - Line 27: `factor_escala` sets up the scale factor (160 for N or 87 for H0)
 
@@ -117,7 +116,7 @@ LED display brightness is set to 100% by default, but can be modified through pa
 
 <br/>
 
-_El programa está ajustado de fábrica a escala N y a un tramo de vía con las ampollas reed separadas 25 cm. En el caso de querer cambiar estos ajustes, habría que modificar los siguientes parámetros:_
+_Subir el código "Trampa_de_velocidad-Speed_trap.ino" a la placa de Arduino. El programa está ajustado de fábrica a escala N y a un tramo de vía con las ampollas reed separadas 25 cm. En el caso de querer cambiar estos ajustes, habría que modificar los siguientes parámetros:_
 - _Línea 25: la variable_ `distancia_cm` _define la distancia en centímetros entre las ampollas reed. Es un número real, por lo que admite decimales usando un punto como separación_
 - _Línea 27: la variable_ `factor_escala` _define la escala a considerar (160 para N o bien 87 para H0)_
 
